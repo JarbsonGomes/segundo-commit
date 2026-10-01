@@ -1,0 +1,176 @@
+/* Seleciona todos os elementos da página */
+* {
+    /* Define a fonte principal */
+    font-family: "Montserrat", sans-serif;
+    /* Remove as margens padrão */
+    margin: 0;
+    /* Remove os espaçamentos internos padrão */
+    padding: 0;
+    /* Inclui bordas e espaçamentos no tamanho total */
+    box-sizing: border-box;
+}
+
+/* Seleciona o elemento header */
+header {
+    /* Define margem superior, direita, inferior e esquerda */
+    margin: 44px 0 144px 76px;
+}
+
+/* Estiliza os links do cabeçalho */
+.link-header {
+    /* Define a espessura da fonte */
+    font-weight: 600;
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+    /* Define a altura da linha */
+    line-height: 29px;
+    /* Define a cor do texto */
+    color: #989d9c;
+    /* Mostra o cursor de clique */
+    cursor: pointer;
+    /* Define espaço à direita do link */
+    margin-right: 23px;
+}
+
+/* Estiliza o botão do cabeçalho */
+.button-header {
+    /* Define a cor de fundo */
+    background: #665ae1;
+    /* Arredonda os cantos */
+    border-radius: 20.5px;
+    /* Define a largura */
+    width: 130px;
+    /* Define a altura */
+    height: 41px;
+    /* Remove a borda padrão */
+    border: none;
+    /* Define a espessura da fonte */
+    font-weight: 600;
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+    /* Define a altura da linha */
+    line-height: 29px;
+    /* Define a cor do texto */
+    color: #ffffff;
+    /* Mostra o cursor de clique */
+    cursor: pointer;
+}
+
+/* Estiliza a imagem da logo */
+.logo-image {
+    /* Define a altura da imagem */
+    height: 500px;
+    /* Define a largura da imagem */
+    width: 568px;
+    /* Define espaço à esquerda */
+    margin-left: 125px;
+    /* Permite posicionamento lado a lado */
+    display: inline-block;
+}
+
+/* Seleciona todos os elementos section */
+section {
+    /* Permite que fique lado a lado com outros elementos */
+    display: inline-block;
+    /* Define espaço à esquerda */
+    margin-left: 86px;
+}
+
+/* Estiliza os títulos h1 */
+h1 {
+    /* Define a espessura da fonte */
+    font-weight: 900;
+    /* Define o tamanho da fonte */
+    font-size: 100px;
+    /* Define a altura da linha */
+    line-height: 122px;
+    /* Define a cor do texto */
+    color: #515151;
+}
+
+/* Estiliza os títulos h2 */
+h2 {
+    /* Define a espessura da fonte */
+    font-weight: 500;
+    /* Define o tamanho da fonte */
+    font-size: 58px;
+    /* Define a altura da linha */
+    line-height: 71px;
+    /* Define a cor do texto */
+    color: #515151;
+}
+
+/* Estiliza todos os parágrafos */
+p {
+    /* Define a espessura da fonte */
+    font-weight: 400;
+    /* Define o tamanho da fonte */
+    font-size: 24px;
+    /* Define a altura da linha */
+    line-height: 29px;
+    /* Define a cor do texto */
+    color: #848484;
+    /* Define a largura do parágrafo */
+    width: 515px;
+    /* Define espaço acima do parágrafo */
+    margin-top: 32px;
+    /* Define espaço abaixo do parágrafo */
+    margin-bottom: 65px;
+}
+
+/* Estiliza o botão principal */
+.button-main {
+    /* Define a cor de fundo */
+    background: #adff00;
+    /* Arredonda os cantos */
+    border-radius: 30px;
+    /* Define a largura */
+    width: 239px;
+    /* Define a altura */
+    height: 64px;
+    /* Remove a borda padrão */
+    border: none;
+    /* Adiciona uma sombra ao botão */
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* Define a espessura da fonte */
+    font-weight: 700;
+    /* Define o tamanho da fonte */
+    font-size: 28px;
+    /* Define a altura da linha */
+    line-height: 34px;
+    /* Define a cor do texto */
+    color: #000000;
+    /* Mostra o cursor de clique */
+    cursor: pointer;
+}
+@media screen and (max-width: 800px) {   
+    .link-header {
+        display: none;
+    }
+    .button-header {
+        display: none;
+    }
+    p {
+        display: none;
+    }
+    .logo-image {
+        display: block;
+        width: 90%;
+        max-width: 568px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 1.3;
+    }
+    h2 {
+        font-size: 30px; 
+        line-height: 1;
+        
+    }
+    .button-main {
+        margin-top: 20px;
+    }
+}
